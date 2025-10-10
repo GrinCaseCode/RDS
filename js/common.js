@@ -81,11 +81,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(".sidebar-catalog").slideToggle(200);
 	});
 
-	  $(".item-sidebar__head").click(function() {
+	  $(".item-sidebar_haschild .item-sidebar__head").click(function() {
     $(this).parent().toggleClass("active");
     $(this).siblings().slideToggle(200);
-    $(this).parent().siblings(".item-sidebar").removeClass("active");
-    $(this).parent().siblings(".item-sidebar").find(".item-sidebar__content").slideUp(200);
   });
 
   //tabs
