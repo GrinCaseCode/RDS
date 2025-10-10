@@ -122,9 +122,9 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	//слайдер
 
-	$('.slider').slick({
+	$('.slider-employees').slick({
 		arrows: true,
-		dots: true,
+		dots: false,
 		infinite: true,
 		touchThreshold: 1000,
 		slidesToShow: 1,
@@ -132,6 +132,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
 		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
 	});
+
+		//spinecrement
+$('.item-about__value').css('opacity', '1').spincrement({
+                    from: 0,
+                    thousandSeparator: " ",
+                    duration: 1000
+                });
+
+
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
