@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.2" />
+	<link rel="stylesheet" href="css/media.css?ver=1.2" />
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="header__top">
+				<div class="container"> 
+					<div class="header__wrapper">
+						<div class="sandwich">
+							<div class="sw-topper"></div>
+							<div class="sw-bottom"></div>
+							<div class="sw-footer"></div>
+						</div>
+						<div class="logo-wrap">
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Комплексные поставки расходных материалов любой сложности</div>
+						</div>
+						<div class="header__location">Адрес: <br>Ставрополь, ул. Объездная, 2а </div>
+						<div class="header__right">
+							<div class="header-search">
+								<div class="header-search__form">
+									<form>
+										<input type="text" placeholder="Поиск" required="required">
+										<button class="btn-search"><i class="far fa-search"></i></button>
+									</form>
+								</div>
+								<div class="open-search"><i class="far fa-search"></i></div>
+							</div>
+							<a href="tel:+79682675223" class="phone-main">+7 (968) 267 52 23</a>
+							<a href="#" class="btn-main">Заказать звонок</a>
+							<div class="header__specification">Спецификация: 1</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="container">
+					<nav class="menu">
+						<ul>
+							<li><a href="#">каталог</a></li>
+							<li><a href="#">аутсорсинг закупок</a></li>
+							<li><a href="#">параллельный импорт</a></li>
+							<li><a href="#">о компании</a></li>
+							<li><a href="#">новости</a></li>
+							<li><a href="#">партнерам</a></li>
+							<li><a href="#">контакты</a></li>
+						</ul>
+					</nav>
+					<div class="show-mobile">
+						<div class="header__location">Адрес: <br>Ставрополь, ул. Объездная, 2а </div>
+						<a href="tel:+79682675223" class="phone-main">+7 (968) 267 52 23</a>
+						<a href="#" class="btn-main">Заказать звонок</a>
+						<div class="header__specification">Спецификация: 1</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-overlay"></div>
+		</header>
+
+		<section class="page-catalog">
+			<div class="container">
+				<ul class="breadcrumbs">
+					<li><a href="#">Главная</a></li>
+					<li>Каталог</li>
+				</ul>
+				<div class="row">
+					<div class="col-lg-3">
+						<h1 class="title-section">КАТАЛОГ</h1>
+						<a href="#" class="btn-main btn-main_filter">Фильтр <i class="far fa-filter"></i></a>
+						<div class="sidebar-catalog">
+							<div class="item-sidebar item-sidebar_haschild active">
+								<div class="item-sidebar__head">Категории <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content" style="display: block;">
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox" checked />
+											<span>Крепёж</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>РТИ</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>Кабель и провод</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="item-sidebar item-sidebar_haschild active">
+								<div class="item-sidebar__head">Страна происхождения <i class="far fa-chevron-down"></i></div>
+								<div class="item-sidebar__content" style="display: block;">
+									<div class="search-page">
+										<form>
+											<input type="text" required>
+											<button class="search-page__btn"><i class="far fa-search"></i></button>
+										</form>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox" checked />
+											<span>Россия</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>Китай</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>Германия</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>Франция</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>Америка</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>Япония</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__head">Наличие</div>
+								<div class="item-sidebar__content">
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox" checked />
+											<span>В наличии</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>Под заказ</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="item-sidebar">
+								<div class="item-sidebar__content">
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox" checked />
+											<span>Оригинал</span>
+										</label>
+									</div>
+									<div class="checkbox checkbox_page">
+										<label>
+											<input type="checkbox"/>
+											<span>Аналог</span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-9">
+						<ul class="filter-list">
+							<li><a href="#">Все</a></li>
+							<li><a href="#">Dowsil</a></li>
+							<li><a href="#">Bosh</a></li>
+							<li><a href="#">Conor</a></li>
+							<li><a href="#">Terson</a></li>
+						</ul>
+						<div class="row row_catalog">
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-md-6">
+								<div class="item-catalog">
+									<a href="#" class="item-catalog__image">
+										<img src="img/catalog1.jpg" alt="alt">
+									</a>
+									<a href="#" class="item-catalog__title">Пила маятниковая DRC 355 по металлу, 1300 об/мин </a>
+									<div class="item-catalog__buttons">
+										<a href="#" class="btn-main">Добавить спецификацию</a>
+										<a href="#" class="btn-main btn-main_custom">Подробнее</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pager">
+							<a class="prev page-numbers" href="#"><i class="far fa-chevron-left"></i></a>
+							<span aria-current="page" class="page-numbers current" href="#">1</span> 
+							<a class="page-numbers" href="#">2</a> 
+							<a class="page-numbers" href="#">3</a> 
+							<a class="next page-numbers" href="#"><i class="far fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="consultation">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<h2 class="title-section">Снабжаем <br>без срыва сроков</h2>
+						<div class="title-small">Прикрепите список — направим КП в течение рабочего дня</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="consultation__form">
+							<form>
+								<div class="consultation__wrap">
+									<div class="item-form">
+										<input type="text" placeholder="Имя" required>
+									</div>
+									<div class="item-form">
+										<input type="tel" placeholder="Телефон" class="input-phone" inputmode="numeric"
+											required>
+									</div>
+									<div class="item-form">
+										<input type="email" placeholder="Почта" inputmode="email" required>
+									</div>
+									<div class="file-upload">
+										<label><input type="file" name="file"><i class="fal fa-paperclip"></i> Прикрепите тех задание</label>
+										<div class="name-upload"></div>
+									</div>
+									<input type="submit" class="btn-main" value="Отправить заявку">
+								</div>
+								<div class="checkbox">
+									<label>
+										<input type="checkbox" required checked />
+										<span>Я даю согласие на обработку моих персональных данных ООО «РДС» (ИНН 910206342908) в целях обработки заявки и обратной связи. Политика конфиденциальности — <a href="#">по ссылке</a></span>
+									</label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<div class="footer__logo">
+							<a href="#" class="logo">
+								<img src="img/logo2.svg" alt="alt">
+							</a>
+							<div class="logo-descr">Комплексные поставки расходных материалов любой сложности</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="footer__column">
+							<ul class="footer__nav">
+								<li><a href="#">каталог</a></li>
+								<li><a href="#">аутсорсинг закупок</a></li>
+								<li><a href="#">параллельный импорт</a></li>
+								<li><a href="#">о компании</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="footer__column">
+							<ul class="footer__nav">
+								<li><a href="#">новости</a></li>
+								<li><a href="#">партнерам</a></li>
+								<li><a href="#">контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="footer__right">
+							<div class="footer__contacts">
+								<div class="footer__location">Адрес: <br>Ставрополь, ул. Объездная, 2а </div>
+								<a href="tel:+79682675223" class="phone-main">+7 (968) 267 52 23</a>
+								<ul class="socials-list">
+									<li><a href="#" target="_blank"><img src="img/tg.svg" alt="alt"></a></li>
+									<li><a href="#" target="_blank"><img src="img/wp.svg" alt="alt"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="footer__wrapper">
+						<div class="footer__links">
+							<a href="#">Политика конфиденциальности</a>
+							<a href="#">Согласие на обработку персональных данных</a>
+						</div>
+						<div class="copyright">© Copyright 2025 г.</div>
+						<div class="create">Сделано в <a href="#" target="_blank"><img src="img/sheer.svg" alt="alt"></a></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/animate/wow.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+	<script src="libs/jquery-spincrement/jquery.spincrement.min.js"></script>
+	<script src="js/common.js?ver=1.2"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+
+</html>
