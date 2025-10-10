@@ -1678,6 +1678,9 @@
     .info-text {
         padding-bottom: 5px;
     }
+    .row > div:nth-child(1) > .item-contact br {
+        display: none;
+    }
 }
 
 /* Small Devices, Tablets */
