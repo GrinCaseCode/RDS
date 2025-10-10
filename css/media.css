@@ -16,7 +16,7 @@
     .logo img {
         width: 185px;
     }
-    .phone-main {
+    .phone-main { 
         font-size: 15px;
     }
     .header-search.active .header-search__form {
@@ -302,6 +302,81 @@
     .item-news__date {
         font-size: 13px;
     }
+    .article-content h2 {
+        font-size: 30px;
+        margin-top: 42px;
+        margin-bottom: 19px;
+    }
+    .article-content h3 {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .page-article h1 {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    .page-article {
+        padding-bottom: 80px;
+    }
+    .billbord-page .title-small {
+        margin-bottom: 22px;
+    }
+    .billbord-page .title-section {
+        font-size: 49px;
+        margin-bottom: 16px;
+    }
+    .billbord-page {
+        padding-left: 32px;
+    }
+    .billbord-page__image img {
+        width: 732px;
+    }
+    .advantages.advantages_page .title-section {
+        margin-bottom: 100px;
+    }
+    .title-main {
+        font-size: 33px;
+        margin-bottom: 18px;
+    }
+    .billbord-page_about {
+        padding: 28px;
+    }
+    .billbord-page_about .title-section, .billbord-page_about .billbord-page__text {
+        margin-right: 75px;
+    }
+    .billbord-page__picture {
+        height: 380px;
+    }
+    .item-about__value {
+        font-size: 88px;
+    }
+    .item-about {
+        margin: 48px 0;
+    }
+    .employees__block {
+        padding: 30px;
+        padding-top: 35px;
+    }
+    .employees {
+        padding-top: 15px;
+        padding-bottom: 80px;
+    }
+    .title-min {
+        font-size: 13px;
+    }
+    .billbord-page blockquote {
+        margin-bottom: 22px;
+    }
+    .info-text ul li, .billbord-page__text ul li {
+    margin-bottom: 6px;
+    }
+    .page-inner_suppliers .billbord-page__picture {
+    height: 432px;
+}
+.info-block {
+    padding: 37px 52px;
+    margin: 38px 0;
+}
 }
 
 @media only screen and (max-width : 1530px) {
@@ -575,6 +650,82 @@
     .item-news__text {
         font-size: 13px;
     }
+    .page-article h1 {
+        font-size: 32px;
+        margin-bottom: 22px;
+    }
+    .page-article h1 {
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    .article-content h3 {
+        font-size: 16px;
+        margin: 17px 0;
+    }
+    .page-article {
+        padding-bottom: 70px;
+    }
+    .billbord-page__image img {
+        width: 670px;
+    }
+    .billbord-page .title-section {
+        font-size: 45px;
+    }
+    .advantages.advantages_page .title-section {
+        margin-bottom: 80px;
+    }
+    .consultation_page .title-small {
+        max-width: 688px;
+    }
+    .page-inner_import .billbord-page p {
+        margin-bottom: 8px;
+        line-height: 145%;
+    }
+    .consultation_page .title-section {
+        max-width: 800px;
+    }
+    .title-main {
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+    .title-main {
+        font-size: 26px;
+        margin-bottom: 13px;
+    }
+    .billbord-page_about .title-section, .billbord-page_about .billbord-page__text {
+        margin-right: 55px;
+    }
+    .billbord-page__picture {
+        height: 350px;
+    }
+    .item-about .title-small {
+        max-width: 230px;
+    }
+    .item-about__value {
+        font-size: 80px;
+    }
+    .item-about {
+        margin: 39px 0;
+    }
+    .item-employee .title-min {
+        margin-top: 18px;
+    }
+    .title-min {
+        font-size: 12px;
+    }
+        .billbord-page blockquote {
+        margin-bottom: 19px;
+        margin-right: 50px;
+    }
+        .page-inner_suppliers .billbord-page__picture {
+        height: 405px;
+    }
+    .info-block {
+        padding: 35px 80px;
+    }
+    .info-text__title {
+    margin-bottom: 13px;
+    }
 }
 
 @media only screen and (max-width : 1360px) {
@@ -774,6 +925,36 @@
     .page-news .title-section {
         margin-bottom: 30px;
     }
+    .article-content h2 {
+        font-size: 27px;
+        margin-top: 35px;
+        margin-bottom: 18px;
+    }
+    .article-content img {
+        margin: 24px 0;
+    }
+    .article-content h3 {
+        font-size: 15px;
+        margin: 15px 0;
+    }
+    .consultation_page .title-small {
+        max-width: 630px;
+    }
+    .advantages_page {
+        margin-bottom: 52px;
+    }
+    .billbord-page_about .title-section, .billbord-page_about .billbord-page__text {
+        margin-right: 0;
+    }
+    .billbord-page_about .title-section br {
+        display: none;
+    }
+    .item-about .title-small {
+        max-width: 202px;
+    }
+    .item-employee .title-min {
+        margin-top: 11px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -895,6 +1076,28 @@
     }
     .row>div:nth-child(even)>.item-contact {
         margin-left: 0;
+    }
+    .page-article {
+        padding-bottom: 60px;
+    }
+    .billbord-page .title-section {
+        font-size: 38px;
+    }
+    .billbord-page .title-small {
+        margin-bottom: 18px;
+    }
+    .billbord-page .title-small br {
+        display: none;
+    }
+    .advantages.advantages_page .title-section {
+        margin-bottom: 50px;
+    }
+    .item-about .title-small {
+        max-width: 177px;
+    }
+        .billbord-page blockquote {
+        margin-bottom: 17px;
+        margin-right: 0;
     }
 }
 
@@ -1355,6 +1558,126 @@
     .page-news .pager {
         margin-top: 33px;
     }
+    .page-article h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .article-content img {
+        margin: 20px 0;
+    }
+    .article-content h2 {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .article-content {
+        padding-bottom: 25px;
+    }
+    .page-article {
+        padding-bottom: 42px;
+    }
+    .billbord-page {
+        padding: 20px 15px;
+        padding-bottom: 0;
+    }
+    .billbord-page .title-section {
+        font-size: 34px;
+    }
+    .billbord-page__text {
+        margin-right: 0;
+    }
+    .billbord-page__image img {
+        width: 100%;
+    }
+    .billbord-page__image {
+        margin: 0 -35px;
+        margin-top: 20px;
+    }
+    .page-inner {
+        padding-bottom: 40px;
+    }
+    .advantages.advantages_page .title-section {
+        margin-bottom: 32px;
+    }
+    .advantages_page .advantages__content .row>div {
+        margin-bottom: 25px;
+    }
+    .advantages_page .advantages__content .row {
+        margin-bottom: -25px;
+    }
+    .advantages_page {
+        margin-bottom: 38px;
+    }
+    .page-inner_import .billbord-page .title-small {
+        margin-right: 0;
+    }
+    .title-main {
+        font-size: 21px;
+        margin-bottom: 12px;
+    }
+    .billbord-page__picture {
+        margin-top: 20px;
+        height: auto;
+    }
+    .billbord-page__picture img {
+        width: 100%;
+        height: auto;
+        object-fit: initial;
+    }
+    .item-about__value {
+        font-size: 65px;
+    }
+    .item-about .title-small {
+        font-size: 15px;
+        max-width: 150px;
+    }
+    .text-about {
+        padding-top: 20px;
+        columns: initial;
+    }
+    .item-about {
+        margin-top: 23px;
+        margin-bottom: 0;
+    }
+    .employees {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+    .employees__block {
+        padding: 20px 15px;
+    }
+    .employees .title-section {
+        margin-bottom: 20px;
+    }
+    .text-about p:last-child {
+        margin-bottom: 0;
+    }
+    .slider-employees {
+        margin-top: 22px;
+        padding-bottom: 62px;
+    }
+    .item-employee__content {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .title-min {
+        font-size: 13px;
+    }
+    .billbord-page blockquote::before {
+        width: 2px;
+    }
+    .billbord-page blockquote {
+        padding-left: 20px;
+    }
+        .page-inner_suppliers .billbord-page__picture {
+        height: auto;
+    }
+    .info-block {
+        padding: 20px 15px;
+        margin: 32px 0;
+    }
+    .info-text {
+        padding-bottom: 5px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1499,6 +1822,14 @@
     .item-news:hover .item-news__title {
         color: #ff1d1d;
     }
+    .slick-arrow:hover {
+        background: #000;
+        border-color: #000;
+        color: #fff;
+    }
+    .info-block a:hover {
+        border-color: transparent;
+    }
 }
 
 /*mobile hovers*/
@@ -1559,5 +1890,13 @@
     }
     .item-news:active .item-news__title {
         color: #ff1d1d;
+    }
+    .slick-arrow:active {
+        background: #000;
+        border-color: #000;
+        color: #fff;
+    }
+        .info-block a:active {
+        border-color: transparent;
     }
 }

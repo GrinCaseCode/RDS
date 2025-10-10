@@ -1205,15 +1205,13 @@ input[type=number] {
 }
 .item-news__image img {
 	width: 100%;
-    height: 100%;
-    object-fit: cover;
-    font-family: 'object-fit: cover;';
+	height: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
 	transition: all 2s;
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
 }
 .item-news__date {
 	font-size: 14px;
@@ -1232,7 +1230,7 @@ input[type=number] {
 	display: -webkit-box;
 	-webkit-line-clamp: 2;
 	line-clamp: 2;
-	-webkit-box-orient: vertical;  
+	-webkit-box-orient: vertical;
 	overflow: hidden;
 	transition: all 0.3s;
 }
@@ -1242,11 +1240,11 @@ input[type=number] {
 	display: -webkit-box;
 	-webkit-line-clamp: 2;
 	line-clamp: 2;
-	-webkit-box-orient: vertical;  
+	-webkit-box-orient: vertical;
 	overflow: hidden;
 	color: #000;
 }
-.row.row_news > div {
+.row.row_news>div {
 	margin-bottom: 65px;
 }
 .row.row_news {
@@ -1254,4 +1252,125 @@ input[type=number] {
 }
 .page-news .pager {
 	margin-top: 75px;
+}
+
+.page-article {
+	padding-bottom: 90px;
+}
+.page-article h1 {
+	font-size: 36px;
+	margin-bottom: 27px;
+	line-height: 140%;
+	font-weight: 500;
+}
+.article-content img {
+	margin: 34px 0;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.article-content img:first-child {
+	margin-top: 0;
+}
+.article-content h2 {
+	font-size: 32px;
+	margin-top: 49px;
+	margin-bottom: 20px;
+	line-height: 140%;
+	font-weight: 500;
+}
+.article-content ul li {
+	list-style-type: disc;
+}
+.article-content ul {
+	padding-left: 20px;
+}
+.article-content strong {
+	font-weight: 600;
+}
+.article-content ul,
+.article-content p {
+	margin-bottom: 20px;
+}
+.article-content p:last-child {
+	margin-bottom: 0;
+}
+.article-content h4,
+.article-content h5,
+.article-content h6 {
+	font-weight: 600;
+}
+.article-content h3 {
+	font-size: 18px;
+	line-height: 160%;
+	font-weight: 500;
+	margin: 25px 0;
+}
+
+.billbord-page {
+	padding-left: 36px;
+	overflow: hidden;
+	background: #f8f8f8;
+}
+.billbord-page .title-section {
+	font-size: 54px;
+	margin-bottom: 27px;
+	line-height: 120%;
+}
+.billbord-page .title-small {
+	margin-bottom: 47px;
+}
+.billbord-page__image img {
+	width: 859px;
+}
+.billbord-page p {
+	margin-bottom: 15px;
+}
+.billbord-page p:last-child {
+	margin-bottom: 0;
+}
+.billbord-page__text {
+	margin-right: -30px;
+}
+.page-inner {
+	padding-bottom: 63px;
+}
+.advantages_page {
+	margin-bottom: 73px;
+}
+.advantages_page .advantages__content {
+	margin: 0;
+	padding: 0;
+}
+.advantages.advantages_page .title-section {
+	margin-bottom: 140px;
+}
+.advantages_page .item-advantage__content {
+	max-width: 389px;
+}
+.advantages_page .advantages__content .row>div {
+	margin-bottom: 50px;
+}
+.advantages_page .advantages__content .row {
+	margin-bottom: -50px;
+}
+.consultation_page .title-small {
+	max-width: 760px;
+}
+.page-inner_import .billbord-page .title-small {
+	margin-right: -56px;
+	margin-bottom: 10px;
+}
+.page-inner_import .billbord-page p {
+	margin-bottom: 10px;
+	line-height: 150%;
+}
+.page-inner_import .billbord-page .title-section {
+	margin-bottom: 15px;
+}
+.title-main {
+	font-size: 36px;
+	margin-bottom: 22px;
+	line-height: 140%;
+	font-weight: 500;
 }
