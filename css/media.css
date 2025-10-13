@@ -1681,6 +1681,9 @@
     .row > div:nth-child(1) > .item-contact br {
         display: none;
     }
+    .page-inner_suppliers .billbord-page {
+        padding-bottom: 20px;
+    }
 }
 
 /* Small Devices, Tablets */
