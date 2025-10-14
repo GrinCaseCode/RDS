@@ -15,14 +15,14 @@
 	opacity: 1;
 }
 
-body { 
+body {
 	font-family: 'Inter';
 	font-size: 16px;
 	line-height: 160%;
 	color: #000;
 	overflow-x: hidden;
 	margin: 0;
-	background: #fff; 
+	background: #fff;
 }
 button {
 	cursor: pointer;
@@ -218,6 +218,10 @@ form {
 	padding: 0;
 	border: none;
 	background: transparent;
+}
+.header__specification {
+	color: #000;
+	border-bottom: 1px transparent solid;
 }
 
 .billbord {
@@ -1446,7 +1450,7 @@ input[type=number] {
 }
 .item-employee__image img {
 	width: 100%;
-	height: 100%; 
+	height: 100%;
 	object-fit: cover;
 	font-family: 'object-fit: cover;';
 	transition: all 2s;
@@ -1551,7 +1555,7 @@ input[type=number] {
 .billbord-page__text ul {
 	padding-left: 20px;
 }
-.page-inner_suppliers .billbord-page_about .title-section, 
+.page-inner_suppliers .billbord-page_about .title-section,
 .page-inner_suppliers .billbord-page_about .billbord-page__text {
 	margin-right: 0;
 }
@@ -1562,7 +1566,7 @@ input[type=number] {
 	padding: 46px 90px;
 	margin: 45px 0;
 	color: #fff;
-background: linear-gradient(266.51deg, #242424 17.35%, #666666 55.42%, #242424 100.93%), linear-gradient(85.58deg, #F8F8F8 -1.06%, #F0F0F0 98.1%), #F8F8F8;
+	background: linear-gradient(266.51deg, #242424 17.35%, #666666 55.42%, #242424 100.93%), linear-gradient(85.58deg, #F8F8F8 -1.06%, #F0F0F0 98.1%), #F8F8F8;
 }
 .info-block a {
 	color: #fff;
@@ -1652,8 +1656,8 @@ background: linear-gradient(266.51deg, #242424 17.35%, #666666 55.42%, #242424 1
 	width: 180px;
 }
 .table-basket td:nth-child(3) {
-    width: 800px;
-    padding-right: 45px;
+	width: 800px;
+	padding-right: 45px;
 }
 .table-basket a {
 	color: #000;
@@ -1676,4 +1680,22 @@ background: linear-gradient(266.51deg, #242424 17.35%, #666666 55.42%, #242424 1
 .recomendations .title-section,
 .basket-sidebar .title-section {
 	font-size: 54px;
+}
+.modal-block {
+	display: none;
+	padding: 0;
+	background: transparent;
+}
+.modal-block .form-page {
+	width: 500px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.descr-form {
+	font-size: 18px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.modal-block .form-page .btn-main {
+	margin-top: 15px;
 }
