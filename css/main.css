@@ -1584,3 +1584,96 @@ background: linear-gradient(266.51deg, #242424 17.35%, #666666 55.42%, #242424 1
 .page-inner_suppliers .billbord-page__picture {
 	height: 502px;
 }
+
+.page-basket {
+	padding-bottom: 150px;
+}
+.page-basket .title-section {
+	margin-bottom: 29px;
+}
+.basket-sidebar {
+	padding: 27px 35px;
+	padding-bottom: 45px;
+	line-height: 150%;
+	background: #f8f8f8;
+}
+.basket-sidebar .title-section {
+	margin-bottom: 25px;
+	line-height: 120%;
+}
+.table-basket table {
+	width: 100%;
+	border-spacing: 0;
+}
+.table-basket table td {
+	padding: 18px 0;
+	border-bottom: 1px solid #c4c4c4;
+}
+.td-wrap {
+	gap: 18px;
+	display: flex;
+	align-items: center;
+}
+.checkbox.checkbox_basket {
+	margin: 0;
+}
+.checkbox.checkbox_basket input {
+	width: 26px;
+	height: 26px;
+	border: 1px solid #c4c4c4;
+	border-radius: 3px;
+	background: #fff;
+}
+.checkbox.checkbox_basket input::before {
+	font-size: 13px;
+	color: #000;
+}
+.name-td {
+	width: 700px;
+	font-weight: 500;
+}
+.name-td a {
+	color: #000;
+}
+.remove-basket {
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	color: #242424;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.table-basket td:first-child {
+	font-weight: 500;
+}
+.table-basket td:nth-child(2) {
+	width: 180px;
+}
+.table-basket td:nth-child(3) {
+    width: 800px;
+    padding-right: 45px;
+}
+.table-basket a {
+	color: #000;
+	font-weight: 500;
+}
+.table-basket th {
+	font-size: 20px;
+	padding: 12px 0;
+	font-weight: 500;
+	line-height: 140%;
+	border-bottom: 2px solid #c4c4c4;
+	text-align: left;
+}
+.bottom-basket {
+	padding-top: 55px;
+	text-align: right;
+}
+.page-contacts .title-section,
+.page-basket .title-section,
+.recomendations .title-section,
+.basket-sidebar .title-section {
+	font-size: 54px;
+}
