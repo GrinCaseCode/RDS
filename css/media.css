@@ -1775,7 +1775,7 @@
         padding: 8px 0 !important;
         width: 100% !important;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         position: static;
     }
     .table-basket table {
