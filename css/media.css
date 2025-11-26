@@ -404,10 +404,24 @@
         font-size: 16px;
     }
     .modal-block .form-page {
-        width: 465px;
+        padding: 66px 92px;
+        width: 750px;
     }
     .modal-block .title-form {
         margin-bottom: 18px;
+    }
+    .modal-block .title-section {
+        font-size: 50px;
+    }
+    .descr-modal {
+        margin-bottom: 26px;
+    }
+    .modal-block .form-page .checkbox {
+        margin-top: 26px;
+    }
+    .modal-block .form-page .btn-main,
+    .modal-block .form-page .item-form {
+        max-width: 350px;
     }
 }
 
@@ -1019,6 +1033,16 @@
     .page-contacts .title-section, .page-basket .title-section, .recomendations .title-section, .basket-sidebar .title-section {
         font-size: 37px;
     }
+    .modal-block .form-page {
+        padding: 66px 85px;
+        width: 660px;
+    }
+    .modal-block .title-section {
+        font-size: 46px;
+    }
+    .modal-block .form-page .btn-main, .modal-block .form-page .item-form {
+        max-width: 340px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -1163,10 +1187,6 @@
         margin-bottom: 17px;
         margin-right: 0;
     }
-    .modal-block .form-page {
-        width: 430px;
-    }
-
 }
 
 /* Medium Devices, Desktops */
@@ -1821,7 +1841,15 @@
         font-size: 14px;
     }
     .modal-block .form-page {
-        padding: 22px 15px;
+        padding: 35px 15px;
+    }
+    .modal-block .title-section {
+        font-size: 31px;
+    }
+    .fancybox-slide--html .fancybox-close-small {
+        padding: 8px;
+        right: 0px;
+        top: 0px;
     }
 }
 

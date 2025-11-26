@@ -1687,9 +1687,11 @@ input[type=number] {
 	background: transparent;
 }
 .modal-block .form-page {
-	width: 500px;
+	padding: 83px 109px;
+	width: 828px;
 	max-width: 100%;
 	margin: 0 auto;
+	background: linear-gradient(85.58deg, #F8F8F8 -1.06%, #F0F0F0 98.1%);
 }
 .descr-form {
 	font-size: 18px;
@@ -1698,4 +1700,37 @@ input[type=number] {
 }
 .modal-block .form-page .btn-main {
 	margin-top: 15px;
+}
+.modal-block .title-section {
+	font-size: 54px;
+	margin: 0 auto;
+	margin-bottom: 16px;
+	line-height: 120%;
+	text-align: center;
+	display: block;
+	width: fit-content;
+}
+.modal-block .form-page .btn-main,
+.modal-block .form-page .item-form {
+	max-width: 370px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.modal-block .form-page .btn-main {
+	display: flex;
+}
+.fancybox-slide--html .fancybox-close-small {
+    padding: 7px;
+    right: 5px;
+    top: 5px;
+}
+.descr-modal {
+	margin-bottom: 35px;
+	text-align: center;
+}
+.modal-block .form-page .btn-main {
+	margin-top: 26px;
+}
+.modal-block .form-page .checkbox {
+	margin-top: 35px;
 }
